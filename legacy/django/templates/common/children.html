@@ -1,0 +1,3 @@
+{% if child_resource %}<section class="section-gap"><h2>{{ child_title }} المرتبطة — {{ child_count }}</h2>
+<div class="actions">{% if can_create_child %}<a class="button" href="{% url 'resource_create' child_resource %}?{{ child_filter }}">+ إضافة</a>{% endif %}<a class="button secondary" href="{% url 'record_list' child_resource %}?{{ child_filter }}">عرض الكل والتصفية</a></div>
+<ul>{% for pk,label in children %}<li><a href="{% url 'record_detail' child_resource pk %}">{{ label }}</a></li>{% empty %}<li>لا توجد سجلات مرتبطة بعد.</li>{% endfor %}</ul>{% if child_count > 25 %}<p>تعرض هذه الصفحة أول 25 سجلاً. استخدم «عرض الكل» لبقية النتائج.</p>{% endif %}</section>{% endif %}

@@ -1,0 +1,3 @@
+# Legacy backend only; not required for the local SQLite application.
+-r requirements.txt
+mysqlclient>=2.2.7,<3

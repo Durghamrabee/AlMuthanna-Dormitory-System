@@ -1,0 +1,26 @@
+{
+  "repository": "https://github.com/IBM/plex",
+  "commit": "bc6a7e4b37634eb79785d59781893db63ee3edcb",
+  "files": {
+    "IBMPlexSansArabic-Regular.ttf": {
+      "url": "https://raw.githubusercontent.com/IBM/plex/bc6a7e4b37634eb79785d59781893db63ee3edcb/packages/plex-sans-arabic/fonts/complete/ttf/IBMPlexSansArabic-Regular.ttf",
+      "sha256": "8e0f1046c736bf939d4939ee3ae0116acf61cbcd6592deae7656761627080981",
+      "bytes": 236708
+    },
+    "IBMPlexSansArabic-Medium.ttf": {
+      "url": "https://raw.githubusercontent.com/IBM/plex/bc6a7e4b37634eb79785d59781893db63ee3edcb/packages/plex-sans-arabic/fonts/complete/ttf/IBMPlexSansArabic-Medium.ttf",
+      "sha256": "eef162792cf2a6ba5af7943af9f86843b1286ab67aaf615c18c07fd8e97a4a90",
+      "bytes": 243028
+    },
+    "IBMPlexSansArabic-SemiBold.ttf": {
+      "url": "https://raw.githubusercontent.com/IBM/plex/bc6a7e4b37634eb79785d59781893db63ee3edcb/packages/plex-sans-arabic/fonts/complete/ttf/IBMPlexSansArabic-SemiBold.ttf",
+      "sha256": "1d4ab8b6ebadbb9d85f2ecdcb7cb0bb672420a8ff3388ab4f69d7b98056562aa",
+      "bytes": 245544
+    },
+    "IBM-Plex-LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/IBM/plex/bc6a7e4b37634eb79785d59781893db63ee3edcb/packages/plex-sans-arabic/LICENSE.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "bytes": 4456
+    }
+  }
+}

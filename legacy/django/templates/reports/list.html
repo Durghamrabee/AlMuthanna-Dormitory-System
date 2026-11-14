@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block content %}
+<div class="page-heading"><div><p class="eyebrow">التقارير الإدارية</p><h1>{{ title }}</h1></div></div>
+<nav class="report-tabs" aria-label="أنواع التقارير">{% for key,spec in reports.items %}<a {% if key == kind %}aria-current="page"{% endif %} href="{% url 'report' key %}">{{ spec.0 }}</a>{% endfor %}</nav>
+<form method="get" class="panel filter-grid">{{ filters.as_p }}<button>عرض التقرير</button></form>
+<div class="actions">{% if perms.accounts.export_reports %}<a class="button" href="?{{ query }}&format=xlsx">تنزيل Excel</a><a class="button" href="?{{ query }}&format=pdf">تنزيل PDF</a>{% endif %}<a class="button secondary" href="?{{ query }}&format=print" target="_blank" rel="noopener">عرض للطباعة</a></div>
+<p>عدد النتائج: {{ page.paginator.count }} · تاريخ الاستخراج: {{ generated_at|date:'Y-m-d H:i' }}</p>
+<div class="table-scroll"><table><thead><tr>{% for header in headers %}<th scope="col">{{ header }}</th>{% endfor %}</tr></thead><tbody>{% for row in page %}<tr>{% for value in row %}<td>{{ value }}</td>{% endfor %}</tr>{% empty %}<tr><td colspan="10">لا توجد نتائج مطابقة ضمن نطاقك.</td></tr>{% endfor %}</tbody></table></div>
+<nav class="pagination" aria-label="صفحات التقرير">{% if page.has_previous %}<a href="?{{ query }}&page={{ page.previous_page_number }}">السابق</a>{% endif %}<span>صفحة {{ page.number }} من {{ page.paginator.num_pages }}</span>{% if page.has_next %}<a href="?{{ query }}&page={{ page.next_page_number }}">التالي</a>{% endif %}</nav>
+{% endblock %}

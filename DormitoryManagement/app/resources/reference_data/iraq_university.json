@@ -1,0 +1,1834 @@
+{
+  "version": 1,
+  "verified_at": "2026-11-07",
+  "verification_scope": "أسماء وعلاقات مستخرجة من المصادر الرسمية المبينة؛ تاريخ المراجعة ليس ضماناً بعدم صدور تغييرات لاحقة أو غير منشورة.",
+  "provinces": [
+    {
+      "name": "بغداد",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الكرخ",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الرصافة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الأعظمية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المدائن",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المحمودية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الصدر الأولى",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الزوراء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "أبي غريب",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الصدر الثانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الزهور",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الكاظمية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الطارمية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الراشدية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "البصرة",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "البصرة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الزبير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "أبي الخصيب",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "شط العرب",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "القرنة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المدينة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الهارثة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الدير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الصادق",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "سفوان",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الفاو",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "نينوى",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الموصل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "تلعفر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "تلكيف",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحمدانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "مخمور",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "سنجار",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "البعاج",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الشيخان",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحضر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "الأنبار",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الرمادي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الفلوجة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "هيت",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الكرمة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحبانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "القائم",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "حديثة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "العامرية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "العبور",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الرطبة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "عنه",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "راوه",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "صلاح الدين",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "سامراء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الشرقاط",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "تكريت",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "بلد",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "بيجي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "طوز خورماتو",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الدجيل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "العلم",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الضلوعية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الدور",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "امرلي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "ديالى",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "بعقوبة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الخالص",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "خانقين",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المقدادية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "بلدروز",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المنصورية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "كفري",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "مندلي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "كركوك",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "كركوك",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحويجة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "داقوق",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "دبس",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "أربيل",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "أربيل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "سوران",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "شقلاوة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "رواندوز",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "خليفان",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "السليمانية",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "السليمانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "دوكان",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "دهوك",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "دهوك",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "زاخو",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "سميل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "بردرش",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "حلبجة",
+      "source_url": "https://www.moj.gov.iq/view.9251/",
+      "verified": true,
+      "districts": [
+        {
+          "name": "حلبجة",
+          "source_url": "https://www.moj.gov.iq/view.9251/",
+          "verified": true,
+          "source_as_of": "2025-05-13",
+          "source_pages_pdf": null
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "بابل",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الحلة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المسيب",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الهاشمية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "المحاويل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "القاسم",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الكفل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "كوثى",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "كربلاء",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "كربلاء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الهندية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الحسينية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "الجدول الغربي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        },
+        {
+          "name": "عين التمر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            11
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "النجف",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "النجف",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الكوفة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المشخاب",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المناذرة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "القادسية",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الديوانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الحمزة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الشامية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "عفك",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "غماس (الخورنق)",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "اكد (الدغارة)",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الشافعية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "السنية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "آل بدير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "السدير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "سومر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المهناوية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الشنافية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "واسط",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الأحرار",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الحي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الزبيدية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الصويرة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "العزيزية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الكوت",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الموفقية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "النعمانية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "بدرة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "ميسان",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "العمارة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الكحلاء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المجر الكبير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الميمونة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "علي الغربي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "قلعة صالح",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "كميت",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "ذي قار",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "الناصرية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الشطرة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "سوق الشيوخ",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الرفاعي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الغراف",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "قلعة سكر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "النصر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "كرمة بني سعيد",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الدواية",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الفجر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "سيد دخيل",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الجبايش",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الفهود",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "البطحاء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الإصلاح",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    },
+    {
+      "name": "المثنى",
+      "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+      "verified": true,
+      "districts": [
+        {
+          "name": "السماوة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الخضر",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الرميثة",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الوركاء",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "السوير",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "المجد",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "الهلال",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "النجمي",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        },
+        {
+          "name": "السلمان",
+          "source_url": "https://cosit.gov.iq/images/census2024/تقرير%20نتائج%20تعداد%202024.pdf",
+          "verified": true,
+          "source_as_of": "2024",
+          "source_pages_pdf": [
+            12
+          ]
+        }
+      ],
+      "coverage": "reviewed_official_subset_not_current_complete",
+      "current_completeness_verified": false
+    }
+  ],
+  "colleges": [
+    {
+      "name": "كلية الطب",
+      "source_url": "https://medical.mu.edu.iq/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification"
+    },
+    {
+      "name": "كلية طب الأسنان",
+      "source_url": "https://dentistry.mu.edu.iq/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification"
+    },
+    {
+      "name": "كلية الصيدلة",
+      "source_url": "https://pharmacy.mu.edu.iq/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification"
+    },
+    {
+      "name": "كلية التمريض",
+      "source_url": "https://nurs.mu.edu.iq/wp-content/uploads/2025/09/وصف-البرنامج-الاكاديمي.pdf",
+      "verified": true,
+      "departments": [
+        {
+          "name": "عام",
+          "source_url": "https://nurs.mu.edu.iq/wp-content/uploads/2025/09/وصف-البرنامج-الاكاديمي.pdf",
+          "verified": true
+        }
+      ],
+      "note": "ورد القسم العلمي «عام» في الوصف الأكاديمي للبرنامج 2024-2025؛ لم تُحوَّل الفروع التدريسية إلى تخصصات قبول."
+    },
+    {
+      "name": "كلية الطب البيطري",
+      "source_url": "https://vet.mu.edu.iq/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification"
+    },
+    {
+      "name": "كلية الهندسة",
+      "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+      "verified": true,
+      "departments": [
+        {
+          "name": "الهندسة المدنية",
+          "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+          "verified": true
+        },
+        {
+          "name": "الهندسة الكيمياوية",
+          "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+          "verified": true
+        },
+        {
+          "name": "هندسة العمارة",
+          "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+          "verified": true
+        },
+        {
+          "name": "الهندسة الإلكترونية والاتصالات",
+          "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+          "verified": true
+        },
+        {
+          "name": "هندسة معدات النفط والغاز",
+          "source_url": "https://engineering.mu.edu.iq/قسم-الهندسة-المدنية-2/?lang=en",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية العلوم",
+      "source_url": "https://sci.mu.edu.iq/الوصف-الاكاديمي-جميع-الاقسام/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "علوم الحياة",
+          "source_url": "https://sci.mu.edu.iq/الوصف-الاكاديمي-جميع-الاقسام/",
+          "verified": true
+        },
+        {
+          "name": "علوم الكيمياء",
+          "source_url": "https://sci.mu.edu.iq/الوصف-الاكاديمي-جميع-الاقسام/",
+          "verified": true
+        },
+        {
+          "name": "علوم الفيزياء",
+          "source_url": "https://sci.mu.edu.iq/الوصف-الاكاديمي-جميع-الاقسام/",
+          "verified": true
+        },
+        {
+          "name": "علوم الرياضيات وتطبيقات الحاسوب",
+          "source_url": "https://sci.mu.edu.iq/الوصف-الاكاديمي-جميع-الاقسام/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية الزراعة",
+      "source_url": "https://agr.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "الإنتاج الحيواني",
+          "source_url": "https://agr.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "علوم التربة والموارد المائية",
+          "source_url": "https://agr.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "المحاصيل الحقلية",
+          "source_url": "https://agr.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "وقاية النبات",
+          "source_url": "https://agr.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "مكافحة التصحر",
+          "source_url": "https://agr.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية التربية للعلوم الصرفة",
+      "source_url": "https://pse.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "الرياضيات",
+          "source_url": "https://pse.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "علوم الحياة",
+          "source_url": "https://pse.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية الإدارة والاقتصاد",
+      "source_url": "https://eco.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "المحاسبة",
+          "source_url": "https://eco.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "العلوم المالية والمصرفية",
+          "source_url": "https://eco.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "إدارة الأعمال",
+          "source_url": "https://eco.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "إدارة التسويق",
+          "source_url": "https://eco.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية الآداب",
+      "source_url": "https://law.mu.edu.iq/مواقع-كليات-جامعة-المثنى/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification",
+      "note": "تعذر الوصول إلى موقع الكلية وقت المراجعة؛ لم تُنسخ أقسام من جامعات أخرى."
+    },
+    {
+      "name": "كلية التربية الأساسية",
+      "source_url": "https://basicedu.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "العلوم",
+          "source_url": "https://basicedu.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "اللغة العربية",
+          "source_url": "https://basicedu.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "التاريخ",
+          "source_url": "https://basicedu.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "معلم الصفوف الأولى",
+          "source_url": "https://basicedu.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية القانون",
+      "source_url": "https://law.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "القانون العام",
+          "source_url": "https://law.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية التربية البدنية وعلوم الرياضة",
+      "source_url": "https://sport.mu.edu.iq/",
+      "verified": true,
+      "departments": [],
+      "coverage": "pending_department_verification",
+      "note": "الموقع يصف الكلية بأنها ذات القسم الواحد وله فرعان تدريسياً؛ يلزم اعتماد مسمى قسم تسجيل الطالب ولا نفترض انتماءه لأحد الفروع."
+    },
+    {
+      "name": "كلية التربية للعلوم الإنسانية",
+      "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+      "verified": true,
+      "departments": [
+        {
+          "name": "اللغة العربية",
+          "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+          "verified": true
+        },
+        {
+          "name": "التاريخ",
+          "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+          "verified": true
+        },
+        {
+          "name": "الجغرافية",
+          "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+          "verified": true
+        },
+        {
+          "name": "علوم القرآن",
+          "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+          "verified": true
+        },
+        {
+          "name": "اللغة الإنكليزية",
+          "source_url": "https://eps.mu.edu.iq/?page_id=7371",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية هندسة الذكاء الاصطناعي والأمن السيبراني",
+      "source_url": "https://aicse.mu.edu.iq/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "هندسة الذكاء الاصطناعي",
+          "source_url": "https://aicse.mu.edu.iq/",
+          "verified": true
+        },
+        {
+          "name": "هندسة الأمن السيبراني",
+          "source_url": "https://aicse.mu.edu.iq/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "كلية العلوم الطبية التطبيقية",
+      "source_url": "https://ams.mu.edu.iq/تدريسي-قسم-الصحة-البيئية/ا-م-د-حيدر-سلمان-عويد-المنيهلاوي/",
+      "verified": true,
+      "departments": [
+        {
+          "name": "الصحة البيئية",
+          "source_url": "https://ams.mu.edu.iq/تدريسي-قسم-الصحة-البيئية/ا-م-د-حيدر-سلمان-عويد-المنيهلاوي/",
+          "verified": true
+        },
+        {
+          "name": "التحليلات المرضية",
+          "source_url": "https://ams.mu.edu.iq/تدريسي-قسم-الصحة-البيئية/ا-م-د-حيدر-سلمان-عويد-المنيهلاوي/",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "القائمة تضم المحافظات التسع عشرة، وتستند إضافة حلبجة إلى نشر وزارة العدل في 2025/5/13. التحقق من الأسماء لا يثبت شمول كل استحداث إداري صدر بعد تاريخ المصدر.",
+    "الأقضية مستخرجة من الصفحتين المطبوعتين 5 و6 (صفحتي PDF رقم 11 و12) من تقرير النتائج النهائية للتعداد 2024. هي مجموعة متحقق من أسمائها وعلاقاتها في ذلك المصدر، وليست شهادة باكتمال التقسيم الإداري الحالي في 2026.",
+    "تغطية أقضية أربيل والسليمانية ودهوك وحلبجة جزئية عمداً: لم تُطبَّق تحويلات آلية على الأسماء الكردية ذات استخراج PDF غير سليم، ولم تُستنتج تبعية المناطق المتداخلة أو انتقالها إلى حلبجة. تُستكمل بمصادر المحافظة المعتمدة في الإعدادات.",
+    "لم يُدرج صفا بغداد «سما الكاظمية» و«فضاء الكاظمية» كما طبعا في التقرير، لعدم حسم أنهما تسميتان إداريتان صحيحتان؛ يلزم تأكيدهما محلياً. أُبقيت تسميات القادسية الواردة بين قوسين كما في المصدر ولم تُعامل كقضاء إضافي.",
+    "بعض الكليات ذات البرنامج الواحد تنشر فروعاً تدريسية وليست أقسام قبول للطلبة. تُترك أقسامها غير المؤكدة فارغة بدلاً من إنشاء قسم عام افتراضي؛ تُستكمل من إعدادات البرنامج بعد اعتماد شؤون الطلبة.",
+    "الأقسام غير المؤكدة حالياً: الطب، طب الأسنان، الصيدلة، الطب البيطري، الآداب، التربية البدنية وعلوم الرياضة. تظهر هذه الكليات في القائمة، ويحتاج تسجيل طالب فيها إلى إضافة مسمى القسم المعتمد من الإعدادات.",
+    "المصادر مؤسسات رسمية وليست إقراراً من الجامعة باعتماد البرنامج. لا تتضمن البيانات المرجعية بيانات طلبة أو موظفين شخصية."
+  ]
+}

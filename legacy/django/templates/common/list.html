@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block content %}
+<div class="page-heading"><div><p class="eyebrow">إدارة السجلات</p><h1>{{ title }}</h1></div><div class="actions">
+{% if can_create %}<a class="button" href="{% url 'resource_create' resource %}">+ إضافة سجل</a>{% endif %}
+{% if resource == 'students' %}{% if perms.students.add_student %}<a class="button secondary" href="{% url 'import_upload' %}">استيراد Excel</a>{% endif %}{% if perms.students.add_student %}<a class="button" href="{% url 'student_create' %}">+ تسجيل طالب</a>{% endif %}{% if perms.students.export_student %}<a class="button secondary" href="{% url 'student_export' %}?{{ query }}">تصدير Excel</a>{% endif %}{% endif %}
+{% if resource == 'applications' and perms.applications.add_application %}<a class="button" href="{% url 'application_create' %}">+ طلب سكن جديد</a>{% endif %}</div></div>
+<form method="get" class="panel filter-grid">{{ filters.as_p }}<div class="actions"><button>تطبيق التصفية</button><a href="{% url 'record_list' resource %}">مسح التصفية</a></div></form>
+<div class="table-scroll"><table><caption>{{ title }} ضمن نطاق الوصول — {{ page.paginator.count }} سجل</caption><thead><tr><th scope="col">المعرف</th><th scope="col">السجل</th><th scope="col">الإجراء</th></tr></thead><tbody>
+{% for pk,name in rows %}<tr><td>{{ pk }}</td><td>{{ name }}</td><td><a href="{% url 'record_detail' resource pk %}">عرض وإدارة</a></td></tr>{% empty %}<tr><td colspan="3" class="empty-state">لا توجد سجلات مطابقة. يمكنك إضافة سجل جديد أو تغيير التصفية.</td></tr>{% endfor %}</tbody></table></div>
+<nav class="pagination" aria-label="صفحات النتائج">{% if page.has_previous %}<a href="?page={{ page.previous_page_number }}&{{ query }}">السابق</a>{% endif %}<span>صفحة {{ page.number }} من {{ page.paginator.num_pages }}</span>{% if page.has_next %}<a href="?page={{ page.next_page_number }}&{{ query }}">التالي</a>{% endif %}</nav>{% endblock %}

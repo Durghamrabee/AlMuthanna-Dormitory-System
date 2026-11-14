@@ -1,0 +1,32 @@
+{% load static %}<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}الأقسام الداخلية – جامعة المثنى{% endblock %}</title>
+<link rel="stylesheet" href="{% static 'vendor/bootstrap.rtl.min.css' %}"><link rel="stylesheet" href="{% static 'css/app.css' %}">
+{% block extra_head %}{% endblock %}</head>
+<body class="{% if user.is_authenticated %}authenticated{% endif %}">
+<a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+<header><a href="{% url 'home' %}" class="brand">جامعة المثنى <span>نظام إدارة الأقسام الداخلية</span></a>
+{% if user.is_authenticated %}<nav aria-label="الحساب">
+{% if request.local_no_login %}<span>الوضع المحلي بدون تسجيل دخول</span>{% else %}<span>{{ user.get_full_name|default:user.username }}</span>
+{% if user.is_superuser %}<a href="{% url 'accounts:list' %}">الموظفون والصلاحيات</a>{% endif %}
+<a href="{% url 'accounts:password_change' %}">تغيير كلمة المرور</a>
+<form method="post" action="{% url 'accounts:logout' %}">{% csrf_token %}<button type="submit">تسجيل الخروج</button></form>{% endif %}</nav>{% endif %}
+</header>
+<div class="app-shell">
+{% if user.is_authenticated %}<aside class="sidebar"><nav aria-label="أقسام النظام">
+<a href="{% url 'home' %}">لوحة المتابعة</a>
+<a href="{% url 'alerts' %}">التنبيهات الإدارية</a>
+{% if perms.dormitories.view_room and perms.dormitories.view_bed %}<a href="{% url 'room_map' %}">خريطة الغرف والتسكين</a>{% endif %}
+{% if perms.students.view_student %}<a href="{% url 'record_list' 'students' %}">الطلبة وملفاتهم</a>{% endif %}
+{% if perms.applications.view_application %}<a href="{% url 'record_list' 'applications' %}">طلبات السكن</a>{% endif %}
+{% if perms.accommodations.view_assignment %}<a href="{% url 'record_list' 'assignments' %}">التسكين والحركة</a>{% endif %}
+{% if perms.dormitories.view_building %}<a href="{% url 'record_list' 'complexes' %}">المجمعات والبنايات</a><a href="{% url 'record_list' 'rooms' %}">الغرف</a><a href="{% url 'record_list' 'beds' %}">الأسرّة</a>{% endif %}
+{% if perms.maintenance.view_maintenancerequest %}<a href="{% url 'record_list' 'maintenance' %}">الصيانة</a>{% endif %}
+{% if perms.violations.view_violation %}<a href="{% url 'record_list' 'violations' %}">المخالفات</a>{% endif %}
+{% if perms.accounts.view_reports %}<a href="{% url 'reports' %}">التقارير والطباعة</a>{% endif %}
+{% if user.is_superuser %}<a href="{% url 'backups' %}">النسخ الاحتياطي</a><a href="{% url 'preferences' %}">إعدادات النظام</a><a href="{% url 'print_preferences' %}">تخصيص نماذج الطباعة</a>{% endif %}
+</nav></aside>{% endif %}
+<main id="main" tabindex="-1">{% for message in messages %}<div class="notice" role="status">{{ message }}</div>{% endfor %}{% block content %}{% endblock %}</main>
+</div><footer>جامعة المثنى · إدارة السكن الجامعي · جميع البيانات محفوظة على هذا الجهاز</footer>
+<script src="{% static 'js/forms.js' %}"></script>{% block scripts %}{% endblock %}</body></html>

@@ -1,0 +1,5 @@
+{% extends 'base.html' %}{% block content %}<section class="auth-panel"><p class="eyebrow">بوابة الموظفين</p><h1>تسجيل الدخول</h1>
+<p>أدخل بيانات حسابك للوصول إلى السجلات المخولة لك.</p>
+{% if throttled %}<p class="errorlist" role="alert">تعذر تسجيل الدخول. انتظر خمس دقائق ثم حاول مجدداً.</p>{% endif %}
+<form method="post">{% csrf_token %}{{ form.as_p }}{% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}<button type="submit">دخول النظام</button></form>
+<a href="{% url 'accounts:password_reset' %}">استعادة كلمة المرور</a></section>{% endblock %}

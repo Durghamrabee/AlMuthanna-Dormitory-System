@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block content %}
+<div class="page-heading"><div><p class="eyebrow">عرض تفاعلي للمرافق</p><h1>خريطة الغرف والأسرّة</h1></div></div>
+<form method="get" class="panel filter-grid">{{ form.as_p }}<button>عرض الخريطة</button></form>
+<div class="map-legend">{% for state,title,count in legend %}<span class="bed-state state-{{ state }}">{{ title }}: {{ count }}</span>{% endfor %}</div>
+{% if application %}<p class="notice">التسكين للطالب: {{ application.enrollment.student.full_name }}. اختر سريراً متاحاً ثم أكّد التخصيص في الصفحة التالية.</p>{% endif %}
+<div class="room-map">{% for room in page %}<section class="panel room-card"><h2><a href="{% url 'record_detail' 'rooms' room.pk %}">غرفة {{ room.number }}</a></h2><p>{{ room.floor.building.complex.name }} / {{ room.floor.building.name }} / الطابق {{ room.floor.number }}</p>
+<div class="bed-grid">{% for bed in room.map_beds %}<a class="bed-tile state-{{ bed.map_state }}" href="{% if application and bed.map_state == 'available' %}{% url 'application_allocate' application.pk %}?bed={{ bed.pk }}{% else %}{% url 'record_detail' 'beds' bed.pk %}{% endif %}"><strong>سرير {{ bed.number }}</strong><span>{% if bed.map_state == 'available' %}متاح{% elif bed.map_state == 'reserved' %}محجوز{% elif bed.map_state == 'occupied' %}مشغول{% else %}صيانة / غير متاح{% endif %}</span></a>{% empty %}<p>لا توجد أسرّة مطابقة؛ افتح الغرفة لإدارة أسرّتها.</p>{% endfor %}</div></section>{% empty %}<section class="panel empty-state">لا توجد غرف مطابقة ضمن النطاق. أضف المرافق من إدارة البيانات أو غيّر التصفية.</section>{% endfor %}</div>
+<nav class="pagination" aria-label="صفحات خريطة الغرف">{% if page.has_previous %}<a href="?{{ query }}&page={{ page.previous_page_number }}">السابق</a>{% endif %}<span>{{ page.number }} / {{ page.paginator.num_pages }}</span>{% if page.has_next %}<a href="?{{ query }}&page={{ page.next_page_number }}">التالي</a>{% endif %}</nav>
+{% endblock %}

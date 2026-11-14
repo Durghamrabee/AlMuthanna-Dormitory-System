@@ -1,0 +1,11 @@
+{% extends 'base.html' %}{% load static %}
+{% block content %}
+<div class="page-heading"><div><p class="eyebrow">نظام إدارة الأقسام الداخلية</p><h1>لوحة المتابعة</h1><p>ملخص السكن والحركة ضمن نطاق وصولك.</p></div>{% if perms.students.add_student %}<a class="button" href="{% url 'student_create' %}">+ تسجيل طالب</a>{% endif %}</div>
+{% if backup_due %}<div class="notice reminder" role="status">حان موعد النسخ الاحتياطي. {% if latest_backup %}آخر نسخة: {{ latest_backup.created_at|date:'Y-m-d H:i' }}.{% else %}لم تُسجل نسخة احتياطية من الواجهة بعد.{% endif %} <a href="{% url 'backups' %}">إنشاء نسخة الآن</a></div>{% endif %}
+<div class="stats-grid">{% for label,value in counters %}<article class="stat"><span>{{ label }}</span><strong>{{ value }}</strong></article>{% endfor %}</div>
+<div class="charts-grid">{% for chart in charts %}<section class="panel chart-panel"><h2>{{ chart.title }}</h2>{% if chart.labels %}<div class="chart-wrap"><canvas id="chart-{{ forloop.counter0 }}" role="img" aria-label="{{ chart.title }}"></canvas></div><details><summary>عرض بيانات الرسم كجدول</summary><div class="table-scroll"><table><thead><tr><th>الفئة</th>{% for dataset in chart.datasets %}<th>{{ dataset.label }}</th>{% endfor %}</tr></thead><tbody>{% for row in chart.table_rows %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div></details>{% else %}<p class="empty-state">لا توجد بيانات لعرض الرسم بعد.</p>{% endif %}</section>{% endfor %}</div>
+<details class="panel"><summary>إدارة البيانات المرجعية وبقية الوحدات</summary><div class="module-grid">{% for resource,title in links %}<a class="module" href="{% url 'record_list' resource %}"><h2>{{ title }}</h2><span>عرض وإدارة السجلات ←</span></a>{% endfor %}</div></details>
+<section class="panel section-gap"><h2>أحدث الأنشطة</h2><ul class="activity-list">{% for activity in activities %}<li><span>{{ activity.get_action_display }}</span><time>{{ activity.created_at|date:'Y-m-d H:i' }}</time></li>{% empty %}<li>لا توجد أنشطة متاحة ضمن نطاقك.</li>{% endfor %}</ul></section>
+{{ charts|json_script:'dashboard-data' }}
+{% endblock %}
+{% block scripts %}<script src="{% static 'vendor/chart.umd.min.js' %}"></script><script src="{% static 'js/dashboard.js' %}"></script>{% endblock %}
